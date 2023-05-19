@@ -212,9 +212,6 @@ section {
     transition: all .55s ease;
 }
 
-.social-media .clr i {
-    color: rgb(84,201,232);
-}
 
 .social-media i:hover {
     color: rgb(84,201,232);
@@ -223,6 +220,16 @@ section {
 .details{
     display: flex;
     justify-content: center;
+    margin-top: 10px;
+}
+
+.details a{
+    color: rgb(84,201,232);
+    transition: all .55s ease;
+}
+
+.details a:hover{
+    color: #00f;
 }
 
 .main {
